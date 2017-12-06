@@ -1,0 +1,284 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 1151px) and (max-width: 1365px) {
+    .single-preview-wrapper {
+        width: 1250px;
+    }
+    .preview-nav-left {
+        left: 15px;
+    }
+    .preview-nav-right {
+        left: auto;
+        right: 15px;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1150px) {
+.single-preview-wrapper {
+  padding: 40px;
+  width: 960px;
+}
+
+.preview-nav-left {
+  left: 32px;
+}
+
+.preview-nav-right {
+  right: 32px;
+}
+.single-preview-wrapper > .container {
+  width: 100%;
+}
+.single-preview-media {
+  width: 62%;
+}
+
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+.single-preview-wrapper > .container {
+    width: 720px;
+}
+
+.single-preview-wrapper {
+    padding: 0;
+    width: 720px;
+}
+.preview-nav-left,
+.preview-nav-right {
+  top: 52.6%;
+}
+.preview-nav-left {
+    left: 32px;
+}
+.preview-nav-right {
+    right: 32px;
+}
+.preview-details {
+    margin: 0;
+    padding: 30px 70px;
+}
+.single-preview-media {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+}
+.preview-details {
+    float: none;
+    margin: 30px;
+    width: 100%;
+}
+
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+.demo-header {
+    background: url(../img/city.jpg) no-repeat fixed center center / cover transparent;
+    overflow: visible;
+}    
+.demo-header .overlay {
+    padding: 25px 0;
+}
+.demo-logo,
+.preview-nav {
+    float: none !important;
+}
+.preview-nav > ul {
+    margin-top: 25px;
+    text-align: center;
+}
+.preview-nav > ul > li {
+    display: inline-block;
+    float: none;
+}
+.preview-nav li ul.dropdown-item {
+	right: auto;
+	left: 0;
+	margin-left: -140px;
+	min-width: 280px;
+}
+.preview-nav li ul.dropdown-item > li {
+    display: block;
+    text-align: center;
+}
+.preview-nav li ul.dropdown-item > li > ul {
+	right: 0;
+	min-width: 100%;
+}
+.preview-nav li ul.dropdown-item > li:hover > ul {
+    right: 0;
+    position: inherit;
+    border-bottom: 1px solid #e5e5e5;
+}
+.preview-nav li ul.dropdown-item > li > ul > li {
+    text-align: center;
+}
+.demo-heading h1 {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 30px 0;
+}
+.demo-heading {
+    padding-top: 0;
+}
+.demo-heading h1 {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.demo-heading p {
+    display: none;
+}
+.single-preview-wrapper {
+    width: 100%;
+}
+.preview-nav-left, .preview-nav-right {
+    top: 43%;
+}
+.preview-nav-left {
+  left: 13px;
+}
+.preview-nav-right {
+  right: 13px;
+}
+.preview-details {
+    float: none;
+    margin: 60px auto 0;
+    width: 95%;
+}
+.demo-filter li {
+    display: block;
+    margin: 0 0 10px;
+}
+.single-preview-media {
+    float: none;
+    margin: 0 auto;
+    width: 95%;
+}
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/*============================================================
+        iPhone 6 Plus (Portrait) 375px
+==============================================================*/
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+.preview-nav-left, .preview-nav-right {
+    top: 41%;
+}
+.preview-nav-left {
+    left: 15px;
+}
+.preview-nav-right {
+    right: 15px;
+}
+}
+
+
+/*============================================================
+		iPhone 6 Plus (Portrait) 414px
+==============================================================*/
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+.preview-nav-left, .preview-nav-right {
+    top: 40%;
+}
+.preview-nav-left {
+    left: 15px;
+}
+.preview-nav-right {
+    right: 15px;
+}
+}
+
+
+/*============================================================
+		iPhone 5 landscape · width: 568px
+==============================================================*/
+
+@media only screen and (min-width: 420px) and (max-width:568px) {
+.preview-nav-left,
+.preview-nav-right {
+    top: 135%%;
+}
+.preview-nav-left {
+    left: 20px;
+}
+.preview-nav-right {
+    right: 20px;
+}
+}
+
+
+/*============================================================
+		iPhone 5 landscape · width: 568px
+==============================================================*/
+
+@media only screen and (min-width: 569px) and (max-width:600px) {
+.preview-nav-left, .preview-nav-right {
+    top: 99%;
+}
+.preview-nav-left {
+    left: 20px;
+}
+.preview-nav-right {
+    right: 20px;
+}
+}
+
+
+
+/*============================================================
+	iPhone 6 landscape · width: 667px
+==============================================================*/
+
+@media only screen and (min-width: 601px) and (max-width: 667px) {
+.preview-nav-left, .preview-nav-right {
+    top: 128%;
+}
+.preview-nav-left {
+    left: 22px;
+}
+.preview-nav-right {
+    right: 22px;
+}
+}
+
+
+
+/*============================================================
+		iPhone 6 Plus landscape · width: 736px
+==============================================================*/
+
+@media only screen and (min-width: 668px) and (max-width: 736px) {
+.preview-nav-left, .preview-nav-right {
+    top: 124%;
+}
+.preview-nav-left {
+    left: 23px;
+}
+.preview-nav-right {
+    right: 23px;
+}
+}
